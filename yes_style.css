@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /*height: 100vh;*/
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
@@ -21,4 +21,40 @@ body {
     width: 100%; 
     max-width: 500px; 
     height: auto; 
+}
+
+#edna-prichina {
+    color: black;
+}
+
+ol {
+    margin: 0;
+    gap: 1rem;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    place-items: center;
+    flex-direction: column;
+}
+
+li {
+    width: auto;
+    min-width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 3rem;
+    background: #d32f2f;
+    padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+
+}
+
+#losha-prichina-item {
+    background: rgb(29, 29, 29);
+}
+
+#sto-link {
+    text-decoration: none;
+    color: #cf1a1a;
 }
